@@ -17,7 +17,7 @@
   ; DEPENDENCIES
 
   :dependencies [
-    [org.clojure/clojure "1.5.1"]
+    [org.clojure/clojure "1.6.0"]
  
     ;; Runtime assertions
     [pjstadig/assertions "0.1.0"]]
@@ -30,13 +30,14 @@
   
   ; PLUGINS + CONFIGURATION
 
-  :plugins [ [codox "0.6.7"] ]
+  :plugins [ [codox "0.8.7"] ]
 
   ;; codox configuration
 
   :codox {
           :output-dir "target/apidoc"
           :sources [ "src/main/clojure"]
+          :defaults {:doc/format :markdown}
           ;; Uncomment this to get github links in sources
           ;; :src-dir-uri "githubrepo/blob/master/"
           ;; :src-linenum-anchor-prefix "L"

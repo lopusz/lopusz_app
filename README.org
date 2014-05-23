@@ -1,5 +1,5 @@
 * lopusz_app
-  A standard Leiningen template.
+  My standard Leiningen template.
 
 * License
 
